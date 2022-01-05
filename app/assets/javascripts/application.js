@@ -16,3 +16,8 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+$(document).on('turbolinks:load', function () {
+  $('.ui.dropdown').dropdown();
+})
+
